@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/ordersummary-page-using-html-and-css-vGUZ4HXXw
 - Live Site URL: https://prasanthk99.github.io/Order-summary/
 
 ### Built with
