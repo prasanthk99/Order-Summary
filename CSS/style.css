@@ -1,0 +1,136 @@
+body{
+    background-color: #e9efff;
+    background-image: url('images/pattern-background-desktop.svg');
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    margin: 0;
+    font-weight: 500;
+    
+}
+h1{
+    font-size: 1.8rem;
+}
+h2{
+    font-size: 0.95rem;
+}
+
+p{
+    color:gray;
+}
+a{
+    font-weight: 600;
+
+}
+
+.content{
+      
+    width: 30%;  
+    background-color: white;
+    margin: auto;
+    overflow: hidden;
+    border-radius:4%;
+    text-align: center; 
+    margin: 30px auto;
+
+}
+
+.hero-img{
+    width: 100%;
+}
+
+.text{
+    margin: auto 30px 30px;
+    line-height: 1.5;
+}
+
+.music-img{
+    float: left;
+    width: 50px;
+    
+}
+
+.Plan{
+    background-color: rgb(245, 245, 245);
+    border-radius: 5%;
+    padding: 20px;
+    position: relative;
+    
+}
+.Plan h2{
+    margin: 0;
+    margin-right: 80px;
+}
+.cost{
+    color:gray;
+    margin: 0;
+    margin-right: 80px;
+}
+.change{
+    font-size: 0.9rem;
+    position: absolute;
+    right: 20px;
+    top:30px;
+}
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 1rem;
+    background: hsl(245, 75%, 52%);
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: 85%;
+    height: auto;
+    cursor: pointer;
+}
+  
+.btn:hover {
+    background: #4f4fbf;
+    text-decoration: none;
+}
+.btn{
+    margin: 20px auto;
+    box-shadow: 0px 0px 5px black ;
+    border: none;
+}
+.cancel{
+    text-decoration: none;
+    margin: auto;
+    color: gray;
+}
+.cancel:hover{
+    color: #3427d6;
+}
+
+.challenge-by{
+    font-size: 12px;
+}
+
+@media screen and (max-width:950px) {
+    .content{
+        width: 60%;
+        overflow-y: auto;
+    }
+    .Plan{
+        display: block;
+        padding: 10px;
+    }
+    .music-img{
+        float: none;
+        padding-bottom: 10px;
+    }
+    .Plan h2{
+        display: block;
+        margin: 0;
+    }
+    .cost{
+        display: block;
+        margin: 0;
+
+    }
+    .change{
+        position: unset;
+    }
+}
