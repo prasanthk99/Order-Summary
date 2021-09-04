@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: (https://prasanthk99.github.io/Order-summary/)
+- Live Site URL: https://prasanthk99.github.io/Order-summary/
 
 ### Built with
 
